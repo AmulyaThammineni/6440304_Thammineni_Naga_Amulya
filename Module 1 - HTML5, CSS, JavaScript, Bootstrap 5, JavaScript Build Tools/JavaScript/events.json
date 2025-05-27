@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Art Workshop",
+    "date": "2025-07-05",
+    "category": "Art",
+    "seats": 25
+  },
+  {
+    "name": "Music Fiesta",
+    "date": "2025-07-15",
+    "category": "Music",
+    "seats": 50
+  }
+]

@@ -1,0 +1,21 @@
+/* Text color with HEX */
+h1 {
+    color: #2c3e50;
+}
+
+/* Background with RGBA */
+body {
+    background-color: rgba(240, 248, 255, 0.95);
+    background-image: url('cityscape.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Gradient header */
+section header {
+    background: linear-gradient(to right, #4caf50, #81c784);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

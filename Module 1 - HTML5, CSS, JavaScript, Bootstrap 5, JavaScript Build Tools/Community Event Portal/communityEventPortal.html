@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Community Event Portal</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Internal Style -->
+  <style>
+    body {
+      background: #f8f9fa;
+    }
+  </style>
+</head>
+<body>
+  <!-- Inline style to make heading red -->
+  <h1 style="color: red;" id="mainHeader">Welcome to the Local Community Event Portal</h1>
+
+  <nav>
+    <ul id="navList">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Register</a></li>
+    </ul>
+  </nav>
+
+  <section id="eventSection">
+    <h2>Upcoming Events</h2>
+    <div id="eventsContainer"></div>
+  </section>
+
+  <section id="registerSection">
+    <h2>Register for an Event</h2>
+    <form id="registrationForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <select name="event" id="eventSelect"></select>
+      <button type="submit" id="registerBtn">Register</button>
+    </form>
+    <div id="formMessage"></div>
+  </section>
+
+  <section id="newsBulletin">
+    <h2>Community Bulletin</h2>
+    <article class="newsArticle">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis egestas...</p>
+    </article>
+  </section>
+
+  <table id="eventAdminTable">
+    <thead>
+      <tr>
+        <th>Event Name</th>
+        <th>Date</th>
+        <th>Seats</th>
+      </tr>
+    </thead>
+    <tbody id="eventTableBody"></tbody>
+  </table>
+
+  <footer>
+    <p>&copy; 2025 Local Community. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript file -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="main.js"></script>
+  <script>
+    window.onload = function() {
+      alert("Page fully loaded");
+    };
+  </script>
+</body>
+</html>

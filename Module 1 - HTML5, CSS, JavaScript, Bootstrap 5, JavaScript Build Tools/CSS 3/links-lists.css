@@ -1,0 +1,25 @@
+/* Link styling */
+a:link {
+    color: #1a73e8;
+}
+a:hover {
+    color: #0c47a1;
+}
+a:active {
+    color: #004080;
+}
+a:visited {
+    color: #888;
+}
+
+/* Nav menu list */
+nav ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}

@@ -1,0 +1,21 @@
+Debugging with Chrome DevTools:
+
+1. Inspect Element:
+   - Right-click on page elements and choose 'Inspect'.
+   - Modify CSS live and see changes instantly.
+   - Use 'Elements' panel to explore the DOM.
+
+2. Console Tab:
+   - View console logs, errors, and warnings.
+   - Use `console.log()` in your JS to output variable values.
+   - Test JS commands directly here.
+
+3. Sources Panel:
+   - Set breakpoints in your JavaScript files.
+   - Step through code line-by-line.
+   - Watch variable values and call stack.
+
+Tips:
+- Use 'Ctrl+Shift+I' or 'F12' to open DevTools quickly.
+- Use the Network tab to monitor resource loading.
+- Mobile device emulation is available for responsive testing.
